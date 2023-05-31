@@ -1,8 +1,5 @@
 #pragma once
-
-#include<iostream>
 #include"triangle.h"
-//#include"Figure.h"
 
 // равносторонний
 class equilateral :public triangle

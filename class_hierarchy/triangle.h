@@ -1,7 +1,6 @@
 #pragma once
-
-#include"Figure.h"
 #include<iostream>
+#include"Figure.h"
 
 class triangle :public figure
 {
@@ -16,7 +15,7 @@ public:
 	
 	triangle(int a, int b, int c, int A, int B, int C);  // треугольник
 	
-	void Tell()override;
+	void Tell();
 
 protected:
 	int a = 0;

@@ -48,8 +48,7 @@ triangle::triangle(int a, int b, int c, int A, int B, int C)  // треугольник
 }
 
 void triangle::Tell()
-{
-	
+{	
 	std::cout << tri << std::endl;
 	std::cout << stor << "a = " << a << "  " << "b = " << b << "  " << "c = " << c << std::endl;
 	std::cout << ugl << "A = " << A << "  " << "B = " << B << "  " << "C = " << C << std::endl << std::endl;
